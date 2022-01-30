@@ -13,13 +13,13 @@ export const AddCategory = ({setCategories}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if(inputValue.trim().length > 2) {
-            setCategories((cats) => [...cats, e.target[0].value])
+            setCategories((cats) => [inputValue, ...cats])
             setInputValue('');
         }
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='animate__animated animate__fadeIn animate__slower' onSubmit={handleSubmit}>
             <input 
                 type="text"
                 value={ inputValue }
