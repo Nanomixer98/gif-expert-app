@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Create functional components
 - Use of useState Hook inside functional components
 - Comunication between components
+- Create custom hook
+- Add css clases to components
 
 ## Available Scripts
 
