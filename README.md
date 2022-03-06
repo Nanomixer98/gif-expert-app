@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Comunication between components
 - Create custom hook
 - Add css clases to components
+- Build project to production
+- Creation of simple unit tests
 
 ## Available Scripts
 

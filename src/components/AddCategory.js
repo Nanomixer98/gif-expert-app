@@ -8,6 +8,7 @@ export const AddCategory = ({setCategories}) => {
     
     const handleInputChange = (e) => {
         setInputValue(e.target.value)
+        console.log('HandleInputChange ran');
     }
 
     const handleSubmit = (e) => {
@@ -20,6 +21,7 @@ export const AddCategory = ({setCategories}) => {
 
     return (
         <form className='animate__animated animate__fadeIn animate__slower' onSubmit={handleSubmit}>
+            <p>{ inputValue }</p>
             <input 
                 type="text"
                 value={ inputValue }
